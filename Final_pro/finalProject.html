@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB-115 Final Project</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="projectJS.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <img src="PP_fit.png">
+    </header>
+    
+    <nav>
+        <a href="#">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="signup.html">Sign Up</a>
+    </nav>
+
+    <section id="welcome-section">
+        <h1>Welcome to Perfectly Portioned Fitness</h1>
+        <p>Embrace a healthy and active lifestyle with our personalized fitness programs and nutrition plans.</p>
+    </section>
+
+    <form id = "myForm">
+        <!--Name-->
+        <label for="username">Name:&emsp;&nbsp;</label>       
+        <input type = "text" id = "username"/><br>  
+        <!--email-->
+        <label for="useremail">E-Mail:&emsp;</label>       
+        <input type = "text" id = "useremail"/><br> 
+      
+        <!--Goal-->
+        <label for="goal_option">Select goal for the week:</label>
+        <select id="goal" name="goal">
+            <option value="2000"></option>
+            <option value=2000>2000</option>
+            <option value=4000>4000</option>
+        </select>
+        <a>calories per day.<br></a>         
+        <!--Meal plan Button-->
+        <input type = "button" id = "myButton" value = "Create Meal Plan"><br>
+        <!--Refresh Button-->
+        <input type = "button" id = "refresh" value="Refresh">
+    </form>
+    <div id="info">
+    </div>
+    
+</body>
+</html>
